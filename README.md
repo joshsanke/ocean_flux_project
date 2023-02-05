@@ -78,8 +78,7 @@ This seciton produces the data required for FluxEngine, and uses auxillary files
 - *project_results.ipynb* uses FluxEngine results and Neural Network training results to produce statistics and plot graphs.
 
 
-
-
+Code owner: Josh Blannin
 
 
 
