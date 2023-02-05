@@ -4,7 +4,7 @@ This contains information on where data can be sourced and the user instructions
 ***
 
 ## Data
-The data for the relevant variables can be found at the following links (as of August 2021):
+The data for the relevant variables can be found at the following links (as of August 2021): <br>
 Reanalysed SOCAT: https://doi.pangaea.de/10.1594/PANGAEA.939233 <br>
 Sea Surface Temperature - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature <br>
 Chlorophyll-a Concentration - https://data.ceda.ac.uk/neodc/esacci/ocean colour/data/v5.0-release/geographic/netcdf/chlor_a/monthly/v5.0 <br>
