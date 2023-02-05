@@ -28,7 +28,9 @@ The project code is broken up into 3 folders: <br>
 
 More detailed instructions below. <br>
 
-### Project
+***
+
+### Folder: Project
 This code can mostly be run in any order, but the file *Copy_Data.ipynb* must be run before *NN_DATA* and both these **must** be run after all the other data collection files in this folder. <br>
 + #### BATHYMETRY <br>
    - Requires pre-downloaded data. Should run without issue.
@@ -60,14 +62,14 @@ This code can mostly be run in any order, but the file *Copy_Data.ipynb* must be
 
 ***
 
-### NN_train
+### Folder: NN_train
 This section training the neural networks - there are seperate folders for *with* and *without/no* chlorophyll-a (note: anyone editing this code may consider merging these into one function).<br>
 + *Neural_network.ipynb* and *Neural_network_noChl.ipynb* both train neural networks, but the latter does not include chlorophll-a in the training data. Both files output their respective scalers and models to appropriate folders - labelled *???_WC* or *???_NC* for with and without chlorophyll-a respectively. Also outputs .csv of both model estimates (incorrectly labelled as "Preds_WC(/NC).csv" for "predictions") and model errors. *Neural_network.ipynb* also produces a data set of interquartile ranges exported as *iqr_train.csv*.<br>
 + *pco2_estimation_WC.ipynb* and *pco2_estimation_NC.ipynb* calculate gridded pCO2 estimates without and without chlorophyll-a respectively. There is a line to make sure only data 1990-2020 is used and excludes 2021 for reasons previously mentioned. They produce a flattened .csv and full .nc files. **NOTE**: Run *pco2_estimation_WC.ipynb* first as it is required produce a mask for use in *pco2_estimation_NC.ipynb* (an intersecting data mask was not applied to both estimated data sets but should possibly be considered for anyone working on this).<br>
 
 ***
 
-### FE_RUN
+### Folder: FE_RUN
 This seciton produces the data required for FluxEngine, and uses auxillary files that are predownloaded (see FluxEngine distribution files *onedeg_land.nc* and *World_Seas-final-complete_IGA.nc*)
 - Run *FluxEngine_Prep.ipynb* first to produce netCDF files containing data needed for FluxEngine.
 - May require setting up folders *project_withChl* and *project_noChl* wthinin the respective *With_Chlorophyll* and *No_Cholorphyll* directories for FluxEngine to store data in.
