@@ -9,7 +9,7 @@ Reanalysed SOCAT: https://doi.pangaea.de/10.1594/PANGAEA.939233 <br>
 Sea Surface Temperature - https://cds.climate.copernicus.eu/cdsapp#!/dataset/satellite-sea-surface-temperature <br>
 Chlorophyll-a Concentration - https://data.ceda.ac.uk/neodc/esacci/ocean_colour/data/v5.0-release/geographic/netcdf/chlor_a/monthly/v5.0 <br>
 Sea Surface Salinity - https://resources.marine.copernicus.eu/product-detail/GLOBAL_MULTIYEAR_PHY_001_030/INFORMATION <br>
-Mixed Layer Depth - http://apdrc.soest.hawaii.edu/erddap/search/index.html?page=1\&itemsPerPage=1000\&searchFor=ecco2 <br>
+Mixed Layer Depth - http://apdrc.soest.hawaii.edu/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=ecco2 <br>
 Dry Mixing Ratio of CO2 (xCO2) - https://gml.noaa.gov/ccgg/mbl/index.html <br>
 Bathymetry (sub ice topo/bathy) - https://www.gebco.net/data_and_products/gridded_bathymetry_data/ <br>
 Longhurst Province shapefile - https://www.marineregions.org/gazetteer.php?p=details&id=22538 <br>
