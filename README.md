@@ -1,4 +1,7 @@
 # Ocean_Flux_Project
+
+Code owner: Josh Blannin
+
 This contains information on where data can be sourced and the user instructions for running this code.
 
 ***
@@ -76,11 +79,4 @@ This seciton produces the data required for FluxEngine, and uses auxillary files
 - Edit directory paths in *.conf* files for both with and without chlorophyll.
 - Running FluxEngine should fill the created folders and produce a *withChl(/noChl)_global.txt* files.
 - *project_results.ipynb* uses FluxEngine results and Neural Network training results to produce statistics and plot graphs.
-
-
-Code owner: Josh Blannin
-
-
-
-
 
