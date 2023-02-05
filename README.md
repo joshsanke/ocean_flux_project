@@ -12,7 +12,7 @@ Sea Surface Salinity - https://resources.marine.copernicus.eu/product-detail/GLO
 Mixed Layer Depth - http://apdrc.soest.hawaii.edu/erddap/search/index.html?page=1\&itemsPerPage=1000\&searchFor=ecco2 <br>
 Dry Mixing Ratio of CO2 (xCO2) - https://gml.noaa.gov/ccgg/mbl/index.html <br>
 Bathymetry (sub ice topo/bathy) - https://www.gebco.net/data_and_products/gridded_bathymetry_data/ <br>
-Longhurst Province shapefile - https://www.marineregions.org/gazetteer.php?p=details\&id=22538 <br>
+Longhurst Province shapefile - https://www.marineregions.org/gazetteer.php?p=details&id=22538 <br>
 Wind Speed (10m above surface) - https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form <br>
 Air Pressure (at sea level) - https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html <br>
 Ice Coverage - https://www.metoffice.gov.uk/hadobs/hadisst/data/download.html <br>
