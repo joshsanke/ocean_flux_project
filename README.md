@@ -22,5 +22,5 @@ Ice Coverage - https://www.metoffice.gov.uk/hadobs/hadisst/data/download.html <b
 ## User Instructions
 The project code is broken up into 3 folders: <br>
 **Project** - This is where raw data is collected/manipulated. Also temporally and spatially matches data, along with producing a dataframe for training the neural network. <br>
-__NN_train__ - This is where the code for training the neural network is stored, along with the output scalers, models, and model performance. Also there is code to make gridded estimates of pCO2. <br>
+_ _NN_train_ _ - This is where the code for training the neural network is stored, along with the output scalers, models, and model performance. Also there is code to make gridded estimates of pCO2. <br>
 FE_RUN - is the code to produce data files for use with FluxEngine, including auxiliary files, input files, and configuration files. Also stored is the FluxEngine outputs, along with code to view and analyse the results. <br>
